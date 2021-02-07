@@ -15,7 +15,7 @@ Conexão do MongoDB abaixo:
 */
 
 mongoose.connect(
-	'mongodb+srv://admin:Im8XHvPvKQgAEHtW@cluster0.4jycx.mongodb.net/express?retryWrites=true&w=majority', 
+	'mongolink', 
 	{ useNewUrlParser: true, useUnifiedTopology: true })
 
 // Puxa todas as models de um determinado diretório
